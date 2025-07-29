@@ -8,14 +8,14 @@
 </head>
 <body>
 	<nav>
-		<a href="">Home</a>
-		<a href="">About</a>
-		<a href="">Menu</a>
+		<a onclick="showSection('home')">Home</a>
+		<a onclick="showSection('about')">About</a>
+		<a onclick="toggleSubMenu()">Menu</a>
 	</nav>
 
 	<div class="submenu" id="submenu">
-		<a href="">Food</a>
-		<a href="">Drinks</a>
+		<a onclick="showMenuContent('food')">Food</a>
+		<a onclick="showMenuContent('drinks')">Drinks</a>
 	</div>
 
 	<div class="content">

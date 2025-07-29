@@ -1,0 +1,27 @@
+body {
+	font-family: AbortSignal, sans-serif;
+	margin: 0;
+}
+
+nav {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	display: flex;
+	gap: 20px;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.submenu a {
+	color: white;
+}
+content{
+	padding: 20px;
+}
+
+.hidden {
+	display: none;
+}
